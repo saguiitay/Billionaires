@@ -219,7 +219,7 @@
         <s:ApplicationBar IsVisible="True" Mode="Default">
             <!--<s:ApplicationBarIconButton Text="pin" IconUri="/Toolkit.Content/ApplicationBar.Pin.png" Click="PinClick" />
             <s:ApplicationBarIconButton Text="unpin" IconUri="/Toolkit.Content/ApplicationBar.Pin.png" Click="UnPinClick" />-->
-            <s:ApplicationBarIconButton Text="pin" IconUri="/Toolkit.Content/ApplicationBar.Refresh.png" Click="RefreshClick" />
+            <s:ApplicationBarIconButton Text="refresh" IconUri="/Toolkit.Content/ApplicationBar.Refresh.png" Click="RefreshClick" />
         </s:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 
