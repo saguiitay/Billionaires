@@ -4,7 +4,7 @@
   <AppExtra xmlns="" AppPlatformVersion="8.0">
     <Extra Name="Tiles" />
   </AppExtra>
-  <App xmlns="" ProductID="{39f822b0-4eb2-48a9-95ee-70df249deea6}" Title="Billionaires" RuntimeType="Silverlight" Version="1.7.0.0" Genre="apps.normal" Author="saguiitay" Description="Get information about Bloomberg's Top 100 Billionaires. See the most relevant information about the richest people in the world, including their biography, life milestones, net worth, news and much more." Publisher="Billionaires" PublisherID="{c281aba3-f74a-426b-b2f0-ef03e7d1131b}">
+  <App xmlns="" ProductID="{39f822b0-4eb2-48a9-95ee-70df249deea6}" Title="Billionaires" RuntimeType="Silverlight" Version="1.7.0.1" Genre="apps.normal" Author="saguiitay" Description="Get information about Bloomberg's Top 100 Billionaires. See the most relevant information about the richest people in the world, including their biography, life milestones, net worth, news and much more." Publisher="Billionaires" PublisherID="{c281aba3-f74a-426b-b2f0-ef03e7d1131b}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
