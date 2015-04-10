@@ -1,0 +1,22 @@
+﻿<Application 
+    x:Class="Billionaires.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:converters="clr-namespace:Billionaires.Converters">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <!-- Converters -->
+        <converters:HiddenWhenEmptyConverter x:Key="HiddenWhenEmptyConverter" />
+        <converters:HiddenWhenEmptyStringConverter x:Key="HiddenWhenEmptyStringConverter" />
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <s:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

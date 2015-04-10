@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CultureDescriptors CultureName="">
+    <AdDuplex AppId="43119 " Probability="50" />
+    <PubCenter AppId="49f069fb-0a81-4f25-b2ae-ebec701d7eb7" SecondaryId="132607" Probability="50"/>
+    
+    <!--<InnerActive AppId="None_Billionaires_WP"  Probability="10"/>
+    <AdMob AppId="a151d1d3ecb52ed" Probability="10"/>-->
+
+    <!--<PubCenter AppId="test_client" SecondaryId="Image480_80" Probability="100"/>-->
+	</CultureDescriptors>
+</AdSettings>

@@ -1,0 +1,44 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Billionaires.Views.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneChromeBrush}">
+        <StackPanel Margin="0,-12,0,24">
+            <StackPanel Margin="12">
+                <TextBlock Text="Billionaires" FontSize="44"/>
+                <TextBlock Text="Version 1.7" FontSize="24"/>
+            </StackPanel>
+            <TextBlock Style="{StaticResource PhoneTextLargeStyle}" Text="by saguiitay" />
+            <TextBlock Style="{StaticResource PhoneTextNormalStyle}"
+                       FontSize="{StaticResource PhoneFontSizeMedium}"
+                       Margin="12,12,0,0" FontWeight="Bold"
+                       Text="Copyright (c) 2014 Sagui Itay." />
+            <TextBlock Style="{StaticResource PhoneTextNormalStyle}"
+                       Margin="12,24,0,0"  FontSize="{StaticResource PhoneFontSizeSmall}"
+                       TextWrapping="Wrap">
+                All data found in this application is from the Bloomberg Billionaires website.
+                <LineBreak/>To see it live, please see the following reference:
+            </TextBlock>
+            <HyperlinkButton NavigateUri="http://www.bloomberg.com/billionaires/"
+                             Foreground="{StaticResource PhoneAccentBrush}"
+                             TargetName="_new" FontSize="{StaticResource PhoneFontSizeSmall}"
+                             HorizontalAlignment="Left"
+                             Content="Bloomberg Billionaires" />
+
+            <Button Content="Sagui Itay Website" Click="WebsiteClick"/>
+            <Button Content="Rate and review" Click="RateClick"/>
+            <Button Content="Find other apps" Click="OtherAppsClick"/>
+        </StackPanel>
+    </Grid>
+</phone:PhoneApplicationPage>
